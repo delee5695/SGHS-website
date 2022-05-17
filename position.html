@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="club.css">
+    <title>SGHS club</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="sghs.js" defer></script>
+    <div id="wrap">
+      <header id="header">
+        <span class="logo"><a href="./sghs.html"><img src="logo.png"></a></span>
+        <ul class="nav">
+          <div class="first">
+            <li><a href="./sghs.html">HOME</a></li>
+          </div>
+          <div class="second">
+            <li><a href="./club.html">동아리</a></li>
+            <li><a>대회</a></li>
+            <li><a>행사</a></li>
+          </div>
+          <div class="third">
+            <li><a>학생자치</a></li>
+            <li><a>IR/SR</a></li>
+            <li><a>FAQs</a></li>
+          </div>
+        </ul>
+      </header>
+<style>
+  #header{width:100%; height: 100px; border-bottom: medium solid #31485F; }
+
+  .logo >a >img{
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+  }
+  .nav{
+    display: flex;
+    line-height: 100px;
+    float: right;
+  }
+  .nav> div{
+    display: flex;
+    justify-content:flex-end;
+  }
+  .nav > div >li{
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  a:hover{
+    background-color: #DDE8F4;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  @media (max-width: 1024px){
+    #wrap{width: 100%;}
+    #content2 .article_box1 {width: 50%;}
+    #content2 .article_box2 {width: 50%;}
+    #content2 .article_box3 {width: 50%;}
+  }
+  @media (max-width: 768px){
+    #header{display: flex; flex-direction: column; align-items: center; height: auto;}
+    #header .nav .first{display: none;}
+    #header .nav.active{display: flex;}
+    #header .nav li{margin-top: 0px; margin: bottom: 0px;}
+
+    }
+    @media (max-width: 480px){
+      #header{height:200px;}
+      #header .nav{display: flex; flex-direction: column; align-items: center; line-height: 20px; margin-top: 20px;}
+      #header .nav div{height: 50px;}
+      #content2 .article_box1 {width: 100%; height: auto;}
+      #content2 .article_box2 {width: 100%; height: auto;}
+      #content2 .article_box3 {width: 100%; height: auto;}
+
+</style>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SGHS</title>
+    <link>https://www.stsghs.kr/</link>
+    <description>서울국제고등학교의 공식 학생 웹사이트입니다. Official Seoul Global High School website for students.</description>
+    <item>
+      <title>동아리</title>
+      <link>https://www.stsghs.kr/club.html</link>
+      <description>서울국제고등학교의 상설 및 자율 동아리</description>
+      <pubDate>발행시간</pubDate>
+      <guid>https://www.stsghs.kr/club.html</guid>
+    </item>
+    <item>
+      <title>학생자치</title>
+      <link>https://www.stsghs.kr/students.html</link>
+      <description>서울국제고등학교의 학생 자치 제도와 활동 내역</description>
+      <pubDate>발행시간</pubDate>
+      <guid>https://www.stsghs.kr/students.html</guid>
+    </item>
+  </channel>
+</rss>
