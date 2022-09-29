@@ -1,4 +1,4 @@
 # SGHS-website
 
-## Seoul Global High School Official Student Website
-[Student Website](www.stsghs.kr)
+**Seoul Global High School Official Student Website**
+[Student Website](https://www.stsghs.kr/)
